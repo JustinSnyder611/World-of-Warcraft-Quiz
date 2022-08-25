@@ -7,7 +7,7 @@
 
 ## Table of Contents 
 
-Link to Deployed Page: https://www.google.com
+Link to Deployed Page: https://justinsnyder611.github.io/World-of-Warcraft-Quiz/
 
 - [Installation](#installation)
 - [Usage](#usage)

@@ -1,0 +1,135 @@
+body {
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+}
+
+
+h1 {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    font-size: 50px;
+}
+
+#titleLabel {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    top: 40px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#start {
+    position: absolute;
+    left: 45.25%;
+    top: 140px;
+    width: 160px;
+    height: 60px;
+    background-color: firebrick;
+    font-size: 40px;
+}
+
+#start:hover {
+    background-color: red;
+    box-shadow: 2px 2px 4px;
+    cursor: pointer;
+}
+
+
+#questionBox {
+    width: 1000px;
+    height: 700px;
+    border: 4px solid black;
+    background-image: linear-gradient(orangered, maroon);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#questTitle {
+    font-size: 40px;
+    text-align: center;
+}
+
+.question {
+    display: block;
+    margin: 53px auto;
+    width: 800px;
+    height: 100px;
+    background-image: linear-gradient(green, blue)
+}
+
+.question:hover {
+    box-shadow: 8px 5px 9px 2px rgba(0,0,0,0.72);
+    font-weight: bold;
+}
+
+#timer {
+    font-size: 50px;
+    background: white;
+    width: 280px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.end {
+    font-size: 80px;
+    text-align: center;
+    margin: 70px auto;
+}
+
+#continue {
+    position: absolute;
+    left: 43%;
+    bottom: 40px;
+    width: 160px;
+    height: 60px;
+    background-color: firebrick;
+    font-size: 40px;
+    
+}
+
+#continue:hover {
+    background-color: red;
+    box-shadow: 2px 2px 4px;
+    cursor: pointer;
+}
+
+#submitInput {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 500px;
+}
+
+#l1 {
+    font-size: 70px;
+    text-align: start;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#leaderboardButton {
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: blueviolet;
+    width: 200px;
+}
